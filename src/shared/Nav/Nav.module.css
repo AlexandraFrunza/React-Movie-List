@@ -1,0 +1,15 @@
+.main-menu {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.main-menu a {
+  display: inline-block;
+  padding: 5px 10px;
+}
+
+.active {
+  background-color: #c00;
+}

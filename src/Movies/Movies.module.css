@@ -1,0 +1,48 @@
+.movie-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.movie-list h1 {
+  grid-column: span 3;
+}
+
+.movie {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.movie a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+.movie a:hover {
+  text-decoration: underline;
+}
+.single-movie {
+  width: 90vw;
+  max-width: 25%;
+  margin: 4rem auto;
+  display: grid;
+  gap: 2rem;
+}
+
+.single-movie img {
+  width: 100%;
+  display: block;
+}
+
+.single-movie p {
+  max-width: 35em;
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+  line-height: 1.8;
+}
+.star {
+  color: yellow;
+}
